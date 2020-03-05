@@ -1,8 +1,18 @@
 $very-light-grey: hsl(0, 0%, 98%);
 $greyish-blue: hsl(229, 6%, 66%);
 $very-dark-blue: hsl(234, 12%, 34%);
+$cyan: hsl(180, 62%, 55%);
+$red: hsl(0, 78%, 62%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
 // Fonts
 $font-stack: "Poppins", sans-serif;
 $thin-font: 200;
 $bold-font: 400;
 $bolder-font: 600;
+
+// Function to set color strip above card
+@function set-card-color-strip($color) {
+    @return 0 -5px 0 0 $color;
+}

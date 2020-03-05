@@ -1,4 +1,51 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
+.card-container-cyan, .card-container-red, .card-container-orange, .card-container-blue, .card {
+  width: 100%;
+  height: 250px;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+}
+
+.card-container-cyan {
+  -webkit-box-shadow: 0 -5px 0 0 #45d3d3;
+          box-shadow: 0 -5px 0 0 #45d3d3;
+}
+
+.card-container-red {
+  -webkit-box-shadow: 0 -5px 0 0 #ea5353;
+          box-shadow: 0 -5px 0 0 #ea5353;
+}
+
+.card-container-orange {
+  -webkit-box-shadow: 0 -5px 0 0 #fcaf4a;
+          box-shadow: 0 -5px 0 0 #fcaf4a;
+}
+
+.card-container-blue {
+  -webkit-box-shadow: 0 -5px 0 0 #549ef2;
+          box-shadow: 0 -5px 0 0 #549ef2;
+}
+
+.card {
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 2px rgba(172, 176, 216, 0.11), 0 2px 4px rgba(172, 176, 216, 0.11), 0 4px 10px rgba(172, 176, 216, 0.11), 0 8px 12px rgba(172, 176, 216, 0.11), 0 16px 16px rgba(172, 176, 216, 0.11), 0 32px 36px rgba(172, 176, 216, 0.11);
+          box-shadow: 0 1px 2px rgba(172, 176, 216, 0.11), 0 2px 4px rgba(172, 176, 216, 0.11), 0 4px 10px rgba(172, 176, 216, 0.11), 0 8px 12px rgba(172, 176, 216, 0.11), 0 16px 16px rgba(172, 176, 216, 0.11), 0 32px 36px rgba(172, 176, 216, 0.11);
+  padding: 1.5rem;
+  position: relative;
+}
+
+.card p {
+  color: #a3a5ae;
+  margin-top: 1.2rem;
+}
+
+.card img {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13,11 +60,12 @@ body {
 }
 
 .container {
+  display: block;
   padding: 3rem 1.5rem;
 }
 
 .header-content {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
