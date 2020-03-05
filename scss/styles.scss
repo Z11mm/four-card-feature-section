@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
 @import "base";
 @import "card";
+@import 'mixins';
 
 // Mobile styles
 * {
@@ -40,17 +41,17 @@ body {
 
 // Desktop styles
 @media screen and (min-width: 760px) {
-    .header-content p {
-        width: 50%;
-        margin-right: auto;
-        margin-left: auto;
-    }
+  .header-content p {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 2rem;
-        align-items: center;
-    }
+  .grid-container {
+    @include display-grid;
+    grid-template-columns: repeat(3, 1fr);
+     -ms-grid-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    align-items: center;
+  }
 }
-
