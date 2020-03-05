@@ -9,5 +9,29 @@
 body {
   background-color: #fafafa;
   font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  padding: 3rem 1.5rem;
+}
+
+.header-content {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.header-content header {
+  color: #4c4e61;
+}
+
+.header-content .first-heading {
+  font-weight: 200;
+}
+
+.header-content p {
+  margin-top: 1rem;
+  color: #a3a5ae;
+  word-spacing: 0.8em;
 }
 /*# sourceMappingURL=styles.min.css.map */

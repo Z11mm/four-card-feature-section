@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
 
 $very-light-grey: hsl(0, 0%, 98%);
+$greyish-blue: hsl(229, 6%, 66%);
+$very-dark-blue: hsl(234, 12%, 34%);
+// Fonts
 $font-stack: "Poppins", sans-serif;
+$thin-font: 200;
+$bold-font: 400;
+$bolder-font: 600;
 
 * {
   box-sizing: border-box;
@@ -12,4 +18,33 @@ $font-stack: "Poppins", sans-serif;
 body {
   background-color: $very-light-grey;
   font-family: $font-stack;
+  font-size: 1rem;
+}
+
+.container {
+  // display: flex;
+  // flex-direction: column;
+  //   width: 90%;
+  //   margin-right: auto;
+  //   margin-left: auto;
+  padding: 3rem 1.5rem;
+}
+
+.header-content {
+  margin-bottom: 2rem;
+  text-align: center;
+
+  header {
+      color: $very-dark-blue;
+  }
+  
+  .first-heading {
+    font-weight: $thin-font;
+  }
+
+    p {
+        margin-top: 1rem;
+        color: $greyish-blue;
+        word-spacing: 0.8em;
+    }
 }
