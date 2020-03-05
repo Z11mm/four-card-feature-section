@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
+
+$very-light-grey: hsl(0, 0%, 98%);
+$font-stack: "Poppins", sans-serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $very-light-grey;
+  font-family: $font-stack;
+}
