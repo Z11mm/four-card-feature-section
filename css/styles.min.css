@@ -1,29 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
-.card-container-cyan, .card-container-red, .card-container-orange, .card-container-blue, .card {
+.card {
+  width: 90%;
+  margin: 2rem auto;
   height: 200px;
-  border: none;
   border-radius: 0.5rem;
-  margin: 2rem 0;
 }
 
-.card-container-cyan {
-  -webkit-box-shadow: 0 -5px 0 0 #45d3d3;
-          box-shadow: 0 -5px 0 0 #45d3d3;
+.cyan {
+  border-top: 5px solid #45d3d3;
 }
 
-.card-container-red {
-  -webkit-box-shadow: 0 -5px 0 0 #ea5353;
-          box-shadow: 0 -5px 0 0 #ea5353;
+.red {
+  border-top: 5px solid #ea5353;
 }
 
-.card-container-orange {
-  -webkit-box-shadow: 0 -5px 0 0 #fcaf4a;
-          box-shadow: 0 -5px 0 0 #fcaf4a;
+.orange {
+  border-top: 5px solid #fcaf4a;
 }
 
-.card-container-blue {
-  -webkit-box-shadow: 0 -5px 0 0 #549ef2;
-          box-shadow: 0 -5px 0 0 #549ef2;
+.blue {
+  border-top: 5px solid #549ef2;
 }
 
 .card {

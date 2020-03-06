@@ -1,28 +1,24 @@
 %card {
+  width: 90%;
+  margin: 2rem auto;
   height: 200px;
-  border: none;
   border-radius: 0.5rem;
-  margin: 2rem 0;
 }
 
-.card-container-cyan {
-  @extend %card;
-  box-shadow: set-card-color-strip($cyan);
+.cyan {
+  border-top: set-card-color-strip($cyan);
 }
 
-.card-container-red {
-  @extend %card;
-  box-shadow: set-card-color-strip($red);
+.red {
+  border-top: set-card-color-strip($red);
 }
 
-.card-container-orange {
-  @extend %card;
-  box-shadow: set-card-color-strip($orange);
+.orange {
+  border-top: set-card-color-strip($orange);
 }
 
-.card-container-blue {
-  @extend %card;
-  box-shadow: set-card-color-strip($blue);
+.blue {
+  border-top: set-card-color-strip($blue);
 }
 
 .card {
@@ -41,8 +37,8 @@
   }
 
   img {
-      position: absolute;
-      right: 1rem;
-      bottom: 1rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
   }
 }

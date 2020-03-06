@@ -14,5 +14,5 @@ $bolder-font: 600;
 
 // Function to set color strip above card
 @function set-card-color-strip($color) {
-    @return 0 -5px 0 0 $color;
+    @return 5px solid $color;
 }
