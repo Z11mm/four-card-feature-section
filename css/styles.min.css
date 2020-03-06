@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
 .card-container-cyan, .card-container-red, .card-container-orange, .card-container-blue, .card {
-  width: 100%;
-  height: 250px;
+  height: 200px;
   border: none;
   border-radius: 0.5rem;
   margin: 2rem 0;
@@ -31,7 +30,7 @@
   background-color: #fff;
   -webkit-box-shadow: 0 1px 2px rgba(172, 176, 216, 0.11), 0 2px 4px rgba(172, 176, 216, 0.11), 0 4px 10px rgba(172, 176, 216, 0.11), 0 8px 12px rgba(172, 176, 216, 0.11), 0 16px 16px rgba(172, 176, 216, 0.11), 0 32px 36px rgba(172, 176, 216, 0.11);
           box-shadow: 0 1px 2px rgba(172, 176, 216, 0.11), 0 2px 4px rgba(172, 176, 216, 0.11), 0 4px 10px rgba(172, 176, 216, 0.11), 0 8px 12px rgba(172, 176, 216, 0.11), 0 16px 16px rgba(172, 176, 216, 0.11), 0 32px 36px rgba(172, 176, 216, 0.11);
-  padding: 1.5rem;
+  padding: 1rem;
   position: relative;
 }
 
@@ -42,8 +41,8 @@
 
 .card img {
   position: absolute;
-  right: 1.5rem;
-  bottom: 1.5rem;
+  right: 1rem;
+  bottom: 1rem;
 }
 
 * {
